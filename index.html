@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <div class="container">
+        <body id="rectangle">
+    
+            <div class="top-box">
+        <h1 class="unitCl">Unit converter app</h1>
+        <form>
+       <input type="text" placeholder="Enter number" id="master-id"/>
+       <input type="button" value="Submit" onclick="toFeetEl(); toGallonsEl(); toPoundsEl()"/>
+        </form>
+        </div>
+     <div class="container-units">
+      <div class="bottom-box">
+        <h3>(meters | feet)</h3>
+        <h4 class="units" id="meter-id">Meters: </h4> <h4 class="units" id="feet-id">Feet:</h4>
+      </div>
+      <div class="units">
+        <h3>Volume (Liters | Gallons)</h3>
+        <h4 id="liter-id" class="units">Liters: </h4> <h4 id="gallon-id">Gallons: </h4>
+      </div>
+      <div class="units">
+        <h3>Mass (Kilogramms | pounds)</h3>
+        <h4 id="kilogramm-id" class="units">Kilogramms: </h4> <h4 id="pound-id">Pounds: </h4>
+      </div>
+     </div>
+    </div>
+        <script src="index.js"></script>
+        </body>
+</html>
